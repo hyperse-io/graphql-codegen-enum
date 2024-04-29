@@ -1204,9 +1204,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dimjs/logger@npm:^1.5.4":
-  version: 1.5.4
-  resolution: "@dimjs/logger@npm:1.5.4"
+"@dimjs/logger@npm:^1.5.6":
+  version: 1.5.6
+  resolution: "@dimjs/logger@npm:1.5.6"
   dependencies:
     "@sentry/types": "npm:^7.99.0"
   peerDependencies:
@@ -1214,18 +1214,18 @@ __metadata:
   peerDependenciesMeta:
     "@dimjs/request":
       optional: true
-  checksum: 10/1a66fce4809d968c166a30a3c45247192e22699ee039a9ff5f587802a235b50cb672039fe156f39116d50f37080221bd32484ea49754e4233c691504beb12ec4
+  checksum: 10/c40fed26e64a92ebd5c1cac0645dd51195ea1c368d53fadaa0454dc280a97645b84f6a8374d5eff4c2c25a9574ca957586c792aef2eb0c7983749ac603058a34
   languageName: node
   linkType: hard
 
-"@dimjs/request@npm:^1.5.5":
-  version: 1.5.5
-  resolution: "@dimjs/request@npm:1.5.5"
+"@dimjs/request@npm:^1.5.6":
+  version: 1.5.6
+  resolution: "@dimjs/request@npm:1.5.6"
   dependencies:
     "@dimjs/lang": "npm:^1.5.0"
-    "@dimjs/logger": "npm:^1.5.4"
+    "@dimjs/logger": "npm:^1.5.6"
     "@dimjs/utils": "npm:^1.5.1"
-  checksum: 10/2064a3bc64597d2b1c1677b420e909ba83c38bb51160c0e11ecd6e93ce4c31cb7ecd0f471d40c192c6c347b2f46c6f64ca1bd68cb8cdf45fecbe5ccce1b8bde3
+  checksum: 10/7a9b325597ca9e7e844bd98214857cc549c8a0ab51edf9dd8fe3d33bbcb25c8db31d836c6c57f178bdd262d3c54d199f4850f9213e426b4bb9e213b4b3c03d52
   languageName: node
   linkType: hard
 
@@ -2066,7 +2066,7 @@ __metadata:
     "@changesets/cli": "npm:2.27.1"
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
-    "@dimjs/request": "npm:^1.5.5"
+    "@dimjs/request": "npm:^1.5.6"
     "@graphql-codegen/add": "npm:5.0.2"
     "@graphql-codegen/cli": "npm:5.0.2"
     "@graphql-codegen/plugin-helpers": "npm:^5.0.3"

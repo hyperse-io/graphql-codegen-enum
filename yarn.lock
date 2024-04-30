@@ -1197,47 +1197,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dimjs/lang@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@dimjs/lang@npm:1.5.0"
-  checksum: 10/6cfbda9a42efdec6afe82dc591a2919ab9deeb1947a8fb7e3e2019b3ee86193d6ffe33c128359920e912ac5dfaedb976241d157711e873e37f0cd333fc115d4e
-  languageName: node
-  linkType: hard
-
-"@dimjs/logger@npm:^1.5.4":
-  version: 1.5.4
-  resolution: "@dimjs/logger@npm:1.5.4"
-  dependencies:
-    "@sentry/types": "npm:^7.99.0"
-  peerDependencies:
-    "@dimjs/request": ">=1.2.45"
-  peerDependenciesMeta:
-    "@dimjs/request":
-      optional: true
-  checksum: 10/1a66fce4809d968c166a30a3c45247192e22699ee039a9ff5f587802a235b50cb672039fe156f39116d50f37080221bd32484ea49754e4233c691504beb12ec4
-  languageName: node
-  linkType: hard
-
-"@dimjs/request@npm:^1.5.5":
-  version: 1.5.5
-  resolution: "@dimjs/request@npm:1.5.5"
-  dependencies:
-    "@dimjs/lang": "npm:^1.5.0"
-    "@dimjs/logger": "npm:^1.5.4"
-    "@dimjs/utils": "npm:^1.5.1"
-  checksum: 10/2064a3bc64597d2b1c1677b420e909ba83c38bb51160c0e11ecd6e93ce4c31cb7ecd0f471d40c192c6c347b2f46c6f64ca1bd68cb8cdf45fecbe5ccce1b8bde3
-  languageName: node
-  linkType: hard
-
-"@dimjs/utils@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "@dimjs/utils@npm:1.5.1"
-  dependencies:
-    "@dimjs/lang": "npm:^1.5.0"
-  checksum: 10/495303424daa40835ca639b975a234f5207f03f1c7b484b57a6e395590628be15234271f71b30449eaa2a07901105f774ceb80a52f0a817f2953d2fd300d7d01
-  languageName: node
-  linkType: hard
-
 "@esbuild/aix-ppc64@npm:0.19.12":
   version: 0.19.12
   resolution: "@esbuild/aix-ppc64@npm:0.19.12"
@@ -2066,7 +2025,6 @@ __metadata:
     "@changesets/cli": "npm:2.27.1"
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
-    "@dimjs/request": "npm:^1.5.5"
     "@graphql-codegen/add": "npm:5.0.2"
     "@graphql-codegen/cli": "npm:5.0.2"
     "@graphql-codegen/plugin-helpers": "npm:^5.0.3"
@@ -2433,13 +2391,6 @@ __metadata:
   version: 1.10.2
   resolution: "@rushstack/eslint-patch@npm:1.10.2"
   checksum: 10/a92563ee28aa903ee37f5d34c747a8f5641c0a5a7020881902da8fccf94e208c923ed708aef41989f4b1d328cb4c216166ab108c6c2d72ebf0b5b6c18d1461d0
-  languageName: node
-  linkType: hard
-
-"@sentry/types@npm:^7.99.0":
-  version: 7.112.2
-  resolution: "@sentry/types@npm:7.112.2"
-  checksum: 10/4ac8d0727f159adaba0da39f1bc5508153f4ad0f2df716ab221973bdf962fe44c3966253b40d50219d77c28d089a8d8899ade0369178416a6cb469f9d107efbf
   languageName: node
   linkType: hard
 

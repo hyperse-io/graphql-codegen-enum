@@ -2033,7 +2033,7 @@ __metadata:
     "@types/node": "npm:20.12.7"
     "@types/prettier": "npm:3.0.0"
     "@types/shell-quote": "npm:1.7.5"
-    "@vitest/coverage-istanbul": "npm:1.5.2"
+    "@vitest/coverage-istanbul": "npm:1.5.3"
     commitizen: "npm:4.3.0"
     cross-env: "npm:7.0.3"
     cz-conventional-changelog: "npm:3.3.0"
@@ -2811,9 +2811,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-istanbul@npm:1.5.2":
-  version: 1.5.2
-  resolution: "@vitest/coverage-istanbul@npm:1.5.2"
+"@vitest/coverage-istanbul@npm:1.5.3":
+  version: 1.5.3
+  resolution: "@vitest/coverage-istanbul@npm:1.5.3"
   dependencies:
     debug: "npm:^4.3.4"
     istanbul-lib-coverage: "npm:^3.2.2"
@@ -2825,8 +2825,8 @@ __metadata:
     picocolors: "npm:^1.0.0"
     test-exclude: "npm:^6.0.0"
   peerDependencies:
-    vitest: 1.5.2
-  checksum: 10/ff97bcb38c82afd830608b155fdd0cc962f8fce8062fc788dd26fd4b230ce1394c5aacae017c975345f0b113ae560b710205106108cdaffc8c8c1a5930633517
+    vitest: 1.5.3
+  checksum: 10/3bcad49085a9047a7ee277c6c71e0ab897c358a78c8c3c72f7fa8a8f8963a7c828d865d37afa13cbdeec4d578a39c2bf74f2d61bde56f1bbd10809ec39ad7ddc
   languageName: node
   linkType: hard
 

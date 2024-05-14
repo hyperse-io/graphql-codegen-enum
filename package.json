@@ -55,7 +55,7 @@
     "@commitlint/config-conventional": "19.2.2",
     "@graphql-codegen/add": "5.0.2",
     "@graphql-codegen/cli": "5.0.2",
-    "@types/node": "20.12.7",
+    "@types/node": "20.12.12",
     "@types/prettier": "3.0.0",
     "@types/shell-quote": "1.7.5",
     "@vitest/coverage-istanbul": "1.5.2",

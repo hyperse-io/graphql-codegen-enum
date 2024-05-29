@@ -1,6 +1,6 @@
 {
   "name": "@hyperse/graphql-codegen-enum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "type": "module",
   "exports": {

@@ -1,5 +1,11 @@
 # @hyperse/graphql-codegen-enum
 
+## 1.0.3
+
+### Patch Changes
+
+- [`24d5040`](https://github.com/hyperse-io/graphql-codegen-enum/commit/24d50407dc438e8471f5c3bc0d14ccf3d8611537) Thanks [@tianyingchun](https://github.com/tianyingchun)! - rename to `@hyperse` group
+
 ## 1.0.2
 
 ### Patch Changes

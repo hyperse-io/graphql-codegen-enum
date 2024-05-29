@@ -2,4 +2,4 @@
 "@hyperse/graphql-codegen-enum": patch
 ---
 
-refactor
+rename to `@hyperse` group

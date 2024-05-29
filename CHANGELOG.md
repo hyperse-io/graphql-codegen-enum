@@ -1,4 +1,4 @@
-# @hyperse-io/graphql-codegen-enum
+# @hyperse/graphql-codegen-enum
 
 ## 1.0.2
 

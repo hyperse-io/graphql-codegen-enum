@@ -1,4 +1,4 @@
-import { type PluginFunction, oldVisit } from '@graphql-codegen/plugin-helpers';
+import { oldVisit, type PluginFunction } from '@graphql-codegen/plugin-helpers';
 import { transformSchemaAST } from '@graphql-codegen/schema-ast';
 import { TsVisitor } from '@graphql-codegen/typescript';
 

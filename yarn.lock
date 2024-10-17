@@ -2343,7 +2343,7 @@ __metadata:
     "@graphql-codegen/schema-ast": "npm:^4.0.2"
     "@graphql-codegen/typescript": "npm:^4.0.7"
     "@hyperse/eslint-config-hyperse": "npm:^1.0.7"
-    "@types/node": "npm:22.4.0"
+    "@types/node": "npm:22.7.6"
     "@vitest/coverage-istanbul": "npm:1.6.0"
     commitizen: "npm:4.3.0"
     cz-conventional-changelog: "npm:3.3.0"
@@ -2850,12 +2850,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.4.0":
-  version: 22.4.0
-  resolution: "@types/node@npm:22.4.0"
+"@types/node@npm:22.7.6":
+  version: 22.7.6
+  resolution: "@types/node@npm:22.7.6"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10/0b6ccc86856b8473f4d536491edc2ba21386d194219ee84024ef2b2ab054296f0b37a4f52719af797227132853cff065977992e353754a195cd86aea2e128cc7
+  checksum: 10/46a8d6bcd61098ece36f790c4bd500537cf78fe075dbfe48f1e07a29efa6cba18cff3b2564aed80fb183244f5d9a95a63b09e27c9f5181ed927ac16ef493bd95
   languageName: node
   linkType: hard
 

@@ -1,5 +1,11 @@
 # @hyperse/graphql-codegen-enum
 
+## 1.0.4
+
+### Patch Changes
+
+- [`af43562`](https://github.com/hyperse-io/graphql-codegen-enum/commit/af43562ff0b8adf01341045157c298679ef6173a) Thanks [@tianyingchun](https://github.com/tianyingchun)! - update dependencies and configuration
+
 ## 1.0.3
 
 ### Patch Changes

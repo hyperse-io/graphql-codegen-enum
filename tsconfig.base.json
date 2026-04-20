@@ -2,7 +2,6 @@
   "extends": "@hyperse/eslint-config-hyperse/tsconfig.base.json",
   "compilerOptions": {
     "newLine": "lf",
-    "baseUrl": ".",
     "rootDir": ".",
     "outDir": "dist"
   },

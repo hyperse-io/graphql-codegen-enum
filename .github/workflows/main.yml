@@ -12,7 +12,7 @@ on:
       - minor
 env:
   CI: true
-  node: 20.x
+  node: 22.x
 jobs:
   unit-tests:
     name: unit tests

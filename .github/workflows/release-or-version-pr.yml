@@ -6,7 +6,7 @@ on:
       - main
 env:
   CI: true
-  node: 20.x
+  node: 22.x
 
 jobs:
   release:
@@ -22,7 +22,7 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: Use Node.js 20.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.node }}

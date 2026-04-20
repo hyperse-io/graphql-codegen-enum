@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": "./",
     "noImplicitAny": false,
     "allowJs": false,
     "noEmit": false,
@@ -10,9 +9,6 @@
     "paths": {},
     "types": ["vitest/globals"]
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
 }

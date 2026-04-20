@@ -6,7 +6,11 @@ import { TsVisitor } from '@graphql-codegen/typescript';
  * The plugin function to generate TypeScript code from the GraphQL schema only for enums.
  * @returns
  */
-export const plugin: PluginFunction<any> = (schema, documents, config = {}) => {
+export const plugin: PluginFunction<any> = (
+  schema,
+  _documents,
+  config = {}
+) => {
   config = Object.assign(config, {
     onlyEnums: true,
     namingConvention: {
@@ -15,7 +19,7 @@ export const plugin: PluginFunction<any> = (schema, documents, config = {}) => {
   });
   const { schema: _schema, ast } = transformSchemaAST(schema, config);
   const visitor = new TsVisitor(_schema, config);
-  const visitorResult = oldVisit(ast, { leave: visitor as any });
+  const visitorResult = oldVisit(ast, { leave: visitor });
   return {
     content: [...visitorResult.definitions].filter(Boolean).join('\n'),
   };

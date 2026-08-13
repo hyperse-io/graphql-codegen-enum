@@ -23,7 +23,6 @@
   ],
   "scripts": {
     "build": "tsx ./scripts/build.ts",
-    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
     "clean": "rimraf --no-glob ./dist ./coverage ./tsconfig.tsbuildinfo",
     "lint": "eslint .",
     "test": "run-s test-unit",
@@ -34,7 +33,7 @@
     "g:cz": "cz",
     "g:changeset": "changeset",
     "g:version": "changeset version",
-    "g:release": "yarn build-release && changeset publish",
+    "g:release": "yarn build && changeset publish",
     "prepare": "yarn husky"
   },
   "config": {
@@ -48,8 +47,8 @@
     "@graphql-codegen/typescript": "^5.0.10"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.6.0",
-    "@changesets/cli": "2.31.0",
+    "@changesets/changelog-github": "^1.0.0",
+    "@changesets/cli": "^3.0.0",
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
     "@graphql-codegen/add": "6.0.1",
@@ -74,7 +73,7 @@
     "graphql": "^16.13.2"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=22.11.0",
     "npm": "please-use-yarn",
     "yarn": ">=1.22.0"
   },

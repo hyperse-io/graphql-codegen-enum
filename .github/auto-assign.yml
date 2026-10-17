@@ -1,0 +1,18 @@
+# Configuration for wow-actions/auto-assign
+# @link https://github.com/wow-actions/auto-assign#configuration
+addReviewers: false
+
+addAssignees: author
+
+# A list of users to be assigned to the pull request/issue.
+# By default, the author is assigned, so keep `addAssignees: author` above.
+assignees: []
+
+# A number of assignees to add, set to 0 to add all of the assignees.
+numberOfAssignees: 1
+
+# A list of keywords to be skipped the process if the pull request/issue
+# title matches one of them.
+skipKeywords:
+  - wip
+  - 'Version Packages'
